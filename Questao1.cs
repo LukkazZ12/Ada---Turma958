@@ -7,7 +7,8 @@ namespace Questoes123
         static void Main(string[] args)
         {
             Console.Write("Este programa recebe do usuário uma tabela com as distâncias (inteiro em km maior que zero) " +
-                "entre uma quantidade de cidades." +
+                "entre uma quantidade de cidades. Então o usuário fornece um percurso com a ordem das cidades a serem visitadas " +
+                "e o programa retorna a distância a ser percorrida." +
                 "\nPara começar, digite a quantidade de cidades (inteiro maior que um): ");
             int quantidade = 0;
             while (quantidade <= 1)
