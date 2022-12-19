@@ -1,6 +1,6 @@
 using System;
 
-namespace Questao123
+namespace Questoes123
 {
     internal class Questao1
     {
