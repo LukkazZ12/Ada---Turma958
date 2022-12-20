@@ -26,7 +26,7 @@ namespace Questoes123
                 for (int k = 0; k < i; k++)
                 {
                     conversao = int.TryParse(subaux[k], out submatriz2[j, k]);
-                    if (!conversao || submatriz2[j, k] < 0 || (j != k && submatriz2[j, k] == 0))
+                    if (!conversao || submatriz2[j, k] < 0 || (j != k && submatriz2[j, k] == 0) || (j == k && submatriz2[j, k] != 0))
                     {
                         Console.WriteLine("Há uma distância inválida na matriz.");
                         return;
