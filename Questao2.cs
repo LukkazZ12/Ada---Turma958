@@ -4,7 +4,7 @@ namespace Questoes123
 {
     internal class Questao2
     {
-        static void Mainddd(string[] args)
+        static void Main(string[] args)
         {
             bool conversao = true;
             string caminhoDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
